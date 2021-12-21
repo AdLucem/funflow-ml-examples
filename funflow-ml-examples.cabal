@@ -9,9 +9,9 @@ version:        1.0.0
 synopsis:       Examples with funflow
 build-type:     Simple
 
-executable
-  exposed-modules:
-      Main
+executable funflow-ml-examples
+  main-is:
+      Main.hs
   other-modules:
       Paths_funflow_ml_examples
   hs-source-dirs:
@@ -22,4 +22,5 @@ executable
     , funflow
     , regex-posix
     , text
+    , cassava
   default-language: Haskell2010
